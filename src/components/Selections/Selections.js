@@ -1,4 +1,5 @@
 import React from "react";
+import Name from "../Name/Name";
 
 const Selections = (props) => {
     const { selected } = props;
@@ -13,7 +14,7 @@ const Selections = (props) => {
 
     return (
         <div className="pe-3">
-            <div className="bg-white">
+            <div className="bg-white mb-2">
                 <h3 className="text-center py-1">Selected</h3>
                 <table className="table-borderless table">
                     <tbody>
@@ -43,6 +44,9 @@ const Selections = (props) => {
                     </tbody>
                 </table>
             </div>
+            {selected.map((school) => (
+                <Name name={school.name} key={school.id} />
+            ))}
         </div>
     );
 };
