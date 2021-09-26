@@ -12,3 +12,4 @@
 -   School image 🔥
 -   Showing the list of invited schools
 -   Font Awesome Icon Pack has been used
+-   Built-in [JSON file](https://github.com/ProgrammingHeroWC4/the-superhero-direction-jbmakib/blob/main/public/schools.JSON)
