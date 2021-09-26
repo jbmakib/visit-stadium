@@ -12,7 +12,7 @@ const Header = () => {
                 Chattagram with the student and teacher of the best schools of
                 Chattagram
             </p>
-            <h3>Total Capacity: {capacity}</h3>
+            <h3>Total Capacity: {capacity} Peoples</h3>
         </div>
     );
 };
