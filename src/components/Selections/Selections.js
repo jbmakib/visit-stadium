@@ -31,7 +31,7 @@ const Selections = (props) => {
                             <td>{totalTeachers}</td>
                         </tr>
                         <tr>
-                            <th scope="row">Total</th>
+                            <th scope="row">Total:</th>
                             <td>{total}</td>
                         </tr>
                         <tr>

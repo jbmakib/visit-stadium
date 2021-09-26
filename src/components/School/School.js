@@ -8,7 +8,12 @@ const School = (props) => {
     return (
         <div className="col">
             <div className="card h-100 rounded-3">
-                <img src={img} className="card-img-top" alt={name} />
+                <img
+                    src={img}
+                    className="card-img-top"
+                    alt={name}
+                    title={name}
+                />
                 <div className="card-body">
                     <h5>{name}</h5>
                     <p className="card-text my-1">EST. {established}</p>
