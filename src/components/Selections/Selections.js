@@ -45,6 +45,7 @@ const Selections = (props) => {
                     </tbody>
                 </table>
             </div>
+            {/* show name component for selected schools name */}
             {selected.map((school) => (
                 <Name name={school.name} key={school.id} />
             ))}

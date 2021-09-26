@@ -2,6 +2,7 @@ import React from "react";
 import "./School.css";
 
 const School = (props) => {
+    // destructuring
     const { handleClick, school } = props;
     const { name, established, img, location, students, teachers } = school;
 
