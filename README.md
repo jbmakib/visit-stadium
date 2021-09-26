@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Visit Stadium
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Selection for visiting Stadium with the best schools
+
+##### View Project from here 👉 [Visit-stadium](https://see-you-not-for-mind.netlify.app/).
 
 ## Available Scripts
 
