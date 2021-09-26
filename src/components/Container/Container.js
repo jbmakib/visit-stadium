@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import School from "../School/School";
 import "./Container.css";
 
 const Container = () => {
@@ -11,11 +12,11 @@ const Container = () => {
     }, []);
 
     return (
-        <div className="school-container">
+        <div className="school-container my-2">
             <h2>Hello from container</h2>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {schools.map((school) => (
-                    <li>School: {school.id}</li>
+                    <School school={school} key={school.id} />
                 ))}
             </div>
         </div>

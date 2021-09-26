@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 
 function App() {
     return (
-        <div id="container" className="pt-2">
+        <div id="container" className="py-2">
             <div className="container">
                 <Header></Header>
                 <Container></Container>
