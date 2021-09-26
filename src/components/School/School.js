@@ -24,7 +24,7 @@ const School = (props) => {
                         className="btn btn-outline-secondary"
                         onClick={() => handleClick(school)}
                     >
-                        Invite Them
+                        <i className="far fa-envelope"></i> Invite Them
                     </button>
                 </div>
             </div>

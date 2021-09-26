@@ -37,7 +37,8 @@ const Selections = (props) => {
                         <tr>
                             <td colSpan="2" className="text-center">
                                 <button className="btn btn-primary">
-                                    Invite All
+                                    <i className="far fa-envelope"></i> Invite
+                                    Selected
                                 </button>
                             </td>
                         </tr>
