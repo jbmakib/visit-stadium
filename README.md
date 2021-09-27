@@ -1,4 +1,4 @@
-# [Visit Stadium](https://github.com/ProgrammingHeroWC4/the-superhero-direction-jbmakib)
+# [Visit Stadium](https://github.com/jbmakib/visit-stadium)
 
 ### Selection for visiting Stadium with the best schools
 
@@ -12,4 +12,4 @@
 -   School image 🔥
 -   Showing the list of invited schools
 -   Font Awesome Icon Pack has been used
--   Built-in [JSON file](https://github.com/ProgrammingHeroWC4/the-superhero-direction-jbmakib/blob/main/public/schools.JSON)
+-   Built-in [JSON file](https://github.com/jbmakib/visit-stadium/blob/main/public/schools.JSON)
