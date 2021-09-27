@@ -2,7 +2,7 @@
 
 ### Selection for visiting Stadium with the best schools
 
-##### View Project from here 👉 [Visit-stadium](https://visit-stadium.netlify.app/).
+##### View Project from here 👉 [Visit-stadium](https://visit-stadium.netlify.app/)
 
 ## Features
 
@@ -16,6 +16,6 @@
 
 ## How to run?
 
--   Run `npm install`.
--   For visit in [localhost:3000](http://localhost:3000) run `npm start`.
--   For production build, run `npm run build`.
+-   Run `npm install`
+-   For visit in [localhost:3000](http://localhost:3000) run `npm start`
+-   For production build, run `npm run build`
