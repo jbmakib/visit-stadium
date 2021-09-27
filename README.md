@@ -2,7 +2,7 @@
 
 ### Selection for visiting Stadium with the best schools
 
-##### View Project from here 👉 [Visit-stadium](https://see-you-not-for-mind.netlify.app/).
+##### View Project from here 👉 [Visit-stadium](https://visit-stadium.netlify.app/){:target="\_blank" rel="noopener"}.
 
 ## Features
 
@@ -12,4 +12,4 @@
 -   School image 🔥
 -   Showing the list of invited schools
 -   Font Awesome Icon Pack has been used
--   Built-in [JSON file](https://github.com/jbmakib/visit-stadium/blob/main/public/schools.JSON)
+-   Built-in [JSON file](https://jbmakib.github.io/visit-stadium/public/schools.JSON)
