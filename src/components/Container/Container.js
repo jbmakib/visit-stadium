@@ -27,9 +27,9 @@ const Container = () => {
         setSelected(newSelected);
     };
 
-    const handleRemoveItem = (item) => {
+    const handleRemoveItem = (school) => {
         let newSelected = [...selected];
-        newSelected = newSelected.filter((selected) => selected !== item);
+        newSelected = newSelected.filter((selected) => selected !== school);
         setSelected(newSelected);
     };
 
