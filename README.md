@@ -2,7 +2,7 @@
 
 ### Selection for visiting Stadium with the best schools
 
-##### View Project from here 👉 [Visit-stadium](https://visit-stadium.netlify.app/){:target="\_blank" rel="noopener"}.
+##### View Project from here 👉 [Visit-stadium](https://visit-stadium.netlify.app/){:target="_blank" rel="noopener"}.
 
 ## Features
 
