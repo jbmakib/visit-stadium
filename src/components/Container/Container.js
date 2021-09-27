@@ -27,10 +27,19 @@ const Container = () => {
         setSelected(newSelected);
     };
 
+    const handleRemoveItem = (item) => {
+        let newSelected = [...selected];
+        newSelected = newSelected.filter((selected) => selected !== item);
+        setSelected(newSelected);
+    };
+
     return (
         <div className="school-container mb-2 mt-3">
             {/* send the selected schools */}
-            <Selections selected={selected} />
+            <Selections
+                selected={selected}
+                handleRemoveItem={handleRemoveItem}
+            />
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {/* show components for each element of array(schools) */}
                 {schools.map((school) => (

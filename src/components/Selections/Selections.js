@@ -2,7 +2,7 @@ import React from "react";
 import Name from "../Name/Name";
 
 const Selections = (props) => {
-    const { selected } = props;
+    const { selected, handleRemoveItem } = props;
 
     let totalStudent = 0;
     let totalTeachers = 0;
@@ -47,7 +47,11 @@ const Selections = (props) => {
             </div>
             {/* show name component for selected schools name */}
             {selected.map((school) => (
-                <Name name={school.name} key={school.id} />
+                <Name
+                    school={school}
+                    key={school.id}
+                    handleRemoveItem={handleRemoveItem}
+                />
             ))}
         </div>
     );
